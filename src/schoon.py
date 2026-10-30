@@ -28,7 +28,6 @@ def lang_naar_breed(df_lang, kolomnamen):
     breed = breed.rename(columns=kolomnamen)
     breed = breed.reset_index()
     breed = breed.rename(columns={"WijkenEnBuurten": "buurtcode"})
-    breed.columns.name = None
     return breed
 
 

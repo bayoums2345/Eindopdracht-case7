@@ -55,10 +55,10 @@ st.plotly_chart(kaart(selectie, kleurkolom, zoom, midden))
 
 st.markdown(
     """
-**Waar je op let:** kies een plattelandsgemeente zoals Overbetuwe of Berkelland en wissel
-tussen de twee kleuren. De buurten mét een supermarkt op loopafstand liggen in de dorpskernen.
-De buurten zonder liggen eromheen, in het buitengebied, en juist dáár is de WOZ-waarde het hoogst.
-Dat patroon zie je niet in een tabel, en het verklaart waarom nabijheid op het platteland
-samengaat met een lágere woningwaarde.
+**Conclusie:** op het platteland liggen de buurten met een supermarkt op loopafstand in de
+dorpskernen, en de duurste buurten liggen eromheen in het buitengebied. Een supermarkt dichtbij
+gaat daar dus samen met een lagere woningwaarde. Dat komt niet door de supermarkt, maar doordat
+de dure woningen buiten de dorpskern staan. In de stad liggen bijna alle buurten dicht bij een
+supermarkt, dus daar zie je op de kaart geen duidelijk patroon.
 """
 )

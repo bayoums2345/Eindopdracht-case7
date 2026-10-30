@@ -58,8 +58,8 @@ st.caption("Gemiddelde WOZ-waarde van buurten mét (ja) en zonder (nee) een supe
            "Dit is het verschil vóór correctie; de bedragen bovenaan zijn na correctie.")
 
 st.info(
-    f"**Advies:** reken bij een woningproject niet op een hogere woningwaarde door een supermarkt "
+    "**Advies:** reken bij een woningproject niet op een hogere woningwaarde door een supermarkt "
     f"op loopafstand. In de stad is het effect ongeveer {-stad['premie_procent']:.0f}% en op het "
     f"platteland gaat nabijheid samen met een {-platteland['premie_procent']:.0f}% lagere WOZ-waarde. "
-    f"Een supermarkt is een voorziening voor bewoners, geen prijsverhoger."
+    "Een supermarkt is een voorziening voor bewoners, geen prijsverhoger."
 )
